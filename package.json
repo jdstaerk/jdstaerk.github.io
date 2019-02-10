@@ -1,0 +1,31 @@
+{
+  "name": "jdstaerk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/npm-run-all minify:*",
+    "minify:main-css": "./node_modules/.bin/cleancss -o ./css/main.css ./src/css/main.css",
+    "minify:articles-css": "./node_modules/.bin/cleancss -o ./css/articles.css ./src/css/articles.css",
+    "minify:impressum-html": "./node_modules/.bin/htmlmin -o ./pages/impressum.html ./src/pages/impressum.html",
+    "minify:datenschutz-html": "./node_modules/.bin/htmlmin -o ./pages/datenschutz.html ./src/pages/datenschutz.html",
+    "minify:index-html": "./node_modules/.bin/htmlmin -o ./index.html ./src/index.html",
+    "minify:the-faang-race-html": "./node_modules/.bin/htmlmin -o ./articles/the-faang-race.html ./src/articles/the-faang-race.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdstaerk/jdstaerk.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdstaerk/jdstaerk.github.io/issues"
+  },
+  "homepage": "https://github.com/jdstaerk/jdstaerk.github.io#readme",
+  "devDependencies": {
+    "clean-css-cli": "^4.2.1",
+    "html-minifier-cli": "^0.1.0",
+    "npm-run-all": "^4.1.5"
+  }
+}
