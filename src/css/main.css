@@ -20,8 +20,8 @@ body {
 
 @media all and (min-width: 0px) and (max-width: 900px) { 
     .container {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
@@ -94,18 +94,22 @@ p {
     font-size: 1rem;
 }
 
-.article .heading {
+article {
+    width: 100%;
+}
+
+article .heading {
     text-transform: capitalize;
     font-size: 1rem;
     font-weight: bold;
 }
 
-.article .info {
+article .info {
     color: #888888;
     margin-bottom: .861111111111111rem;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.article .continue {
+article .continue {
     text-transform: capitalize;
 }
