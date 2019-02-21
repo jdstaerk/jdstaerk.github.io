@@ -8,11 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home &bull; Jan-David Stärk</title>
 
+    <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./sw.js');
+        });
+    }
+    </script>
+
     <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
     <link rel="stylesheet" href="https://unpkg.com/gutenberg-web-type@1.2.3/assets/combined.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,700" rel="stylesheet">
-    <script src="https://instant.page/1.0.0" type="module" integrity="sha384-6w2SekMzCkuMQ9sEbq0cLviD/yR2HfA/+ekmKiBnFlsoSvb/VmQFSi/umVShadQI"></script>
 </head>
 
 <body>
@@ -31,8 +38,9 @@
                     tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
                     et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea Lorem
                     ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur elitr, sed diam nonumy
-                    eirmod tempor invidunt ut labore et aliquyam erat, sed voluptua. <a href="./articles/the-faang-race.html"> Continue ...</a></p>
-            <article>
+                    eirmod tempor invidunt ut labore et aliquyam erat, sed voluptua. <a href="./articles/the-faang-race.html">
+                        Continue ...</a></p>
+                <article>
         </div>
         <hr />
         <div class="footer">
