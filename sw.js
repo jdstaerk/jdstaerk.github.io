@@ -21,19 +21,19 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "articles/the-faang-race.html",
-    "revision": "a346e3a0936c507cdc52c5c616ef712d"
+    "revision": "33e1864ae77a87b946b8cb6204d92761"
   },
   {
     "url": "index.html",
-    "revision": "862273f8d83505f685572424da0c58cb"
+    "revision": "8a8c3fb740816ae5a17af518f2cca62e"
   },
   {
     "url": "pages/datenschutz.html",
-    "revision": "3174d92a8e04383a94b7667dd090519d"
+    "revision": "25a7141c4cb2881289bce29d3ecc8079"
   },
   {
     "url": "pages/impressum.html",
-    "revision": "016c991e8a9a47b7865b3ed8e2f0d666"
+    "revision": "358c3f452232528f03a4147d47293e9e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
