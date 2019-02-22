@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/npm-run-all minify:* build:service-worker",
     "minify:main-css": "./node_modules/.bin/cleancss -o ./css/main.css ./src/css/main.css",
-    "minify:articles-css": "./node_modules/.bin/cleancss -o ./css/articles.css ./src/css/articles.css",
     "minify:impressum-html": "./node_modules/.bin/htmlmin -o ./pages/impressum.html ./src/pages/impressum.html",
     "minify:datenschutz-html": "./node_modules/.bin/htmlmin -o ./pages/datenschutz.html ./src/pages/datenschutz.html",
     "minify:index-html": "./node_modules/.bin/htmlmin -o ./index.html ./src/index.html",

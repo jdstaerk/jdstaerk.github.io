@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "articles/the-faang-race.html",
-    "revision": "e1155d365f7f94edca5c9dd63608cf1d"
+    "revision": "1093b44fd8b6997aed2757a2091b913d"
   },
   {
     "url": "index.html",
