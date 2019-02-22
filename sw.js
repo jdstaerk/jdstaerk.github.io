@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "articles/the-faang-race.html",
-    "revision": "1093b44fd8b6997aed2757a2091b913d"
+    "revision": "a346e3a0936c507cdc52c5c616ef712d"
   },
   {
     "url": "index.html",
@@ -29,15 +29,15 @@ self.__precacheManifest = [
   },
   {
     "url": "pages/datenschutz.html",
-    "revision": "92d289ae03d66057c1b1b5ea49d51ecd"
+    "revision": "3174d92a8e04383a94b7667dd090519d"
   },
   {
     "url": "pages/impressum.html",
-    "revision": "1056aa49e6391d37299e81a7e8348d8e"
+    "revision": "016c991e8a9a47b7865b3ed8e2f0d666"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerRoute(/\.(?:html|js|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/\.(?:js|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https:\/\/fonts\.googleapis\.com/, workbox.strategies.staleWhileRevalidate(), 'GET');
