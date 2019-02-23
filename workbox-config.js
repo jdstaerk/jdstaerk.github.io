@@ -6,7 +6,7 @@ module.exports = {
   "swDest": "sw.js",
   
   runtimeCaching: [{
-    urlPattern: /\.(?:js|css)$/,
+    urlPattern: /\.(?:js|css|html)$/,
     handler: 'staleWhileRevalidate'
   }, {
     urlPattern: /^https:\/\/fonts\.googleapis\.com/,

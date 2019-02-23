@@ -20,12 +20,20 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
  */
 self.__precacheManifest = [
   {
+    "url": "articles/blogs-to-follow-in-2019.html",
+    "revision": "26ef5d8400c91e5c5c9d8751c122dc02"
+  },
+  {
+    "url": "articles/how-this-website-is-built.html",
+    "revision": "902f9a19a481a2bd802b8c6487933a38"
+  },
+  {
     "url": "articles/the-faang-race.html",
-    "revision": "33e1864ae77a87b946b8cb6204d92761"
+    "revision": "d9a9d7034840f0a67b507ef36fd0d187"
   },
   {
     "url": "index.html",
-    "revision": "8a8c3fb740816ae5a17af518f2cca62e"
+    "revision": "ed30a675549ddd942fe5201e0615b1ce"
   },
   {
     "url": "pages/datenschutz.html",
@@ -39,5 +47,5 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerRoute(/\.(?:js|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/\.(?:js|css|html)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https:\/\/fonts\.googleapis\.com/, workbox.strategies.staleWhileRevalidate(), 'GET');
