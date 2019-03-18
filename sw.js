@@ -21,11 +21,15 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "articles/blogs-to-follow-in-2019.html",
-    "revision": "26ef5d8400c91e5c5c9d8751c122dc02"
+    "revision": "320be0fef620991e4bf2601dc380dc39"
   },
   {
     "url": "articles/how-this-website-is-built.html",
     "revision": "902f9a19a481a2bd802b8c6487933a38"
+  },
+  {
+    "url": "articles/robin-hood-strategy.html",
+    "revision": "2ed27e2ad4447270ee3b4731eb45f701"
   },
   {
     "url": "articles/the-faang-race.html",
@@ -33,7 +37,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "ed30a675549ddd942fe5201e0615b1ce"
+    "revision": "04ac0f2f4f7490490c634d3121f2de8a"
   },
   {
     "url": "pages/datenschutz.html",
@@ -42,6 +46,10 @@ self.__precacheManifest = [
   {
     "url": "pages/impressum.html",
     "revision": "358c3f452232528f03a4147d47293e9e"
+  },
+  {
+    "url": "pages/newsletter.html",
+    "revision": "b73638823195349a9cf4958415351374"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
