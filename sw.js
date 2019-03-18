@@ -21,31 +21,31 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "articles/blogs-to-follow-in-2019.html",
-    "revision": "320be0fef620991e4bf2601dc380dc39"
+    "revision": "303fb28553ca15bd4b219d9ef7f8c75b"
   },
   {
     "url": "articles/how-this-website-is-built.html",
-    "revision": "902f9a19a481a2bd802b8c6487933a38"
+    "revision": "5a13fec4fc1b169699891788f5200f92"
   },
   {
     "url": "articles/robin-hood-strategy.html",
-    "revision": "2ed27e2ad4447270ee3b4731eb45f701"
+    "revision": "9b63643f50f3fef3f1ff3364b4f486da"
   },
   {
     "url": "articles/the-faang-race.html",
-    "revision": "d9a9d7034840f0a67b507ef36fd0d187"
+    "revision": "44253e2fbde64a41913753a17e655e56"
   },
   {
     "url": "index.html",
-    "revision": "04ac0f2f4f7490490c634d3121f2de8a"
+    "revision": "6f10c2830b4dc323fccab1c04f419145"
   },
   {
     "url": "pages/datenschutz.html",
-    "revision": "25a7141c4cb2881289bce29d3ecc8079"
+    "revision": "010c6053a6518d3ea2b7d9f8f97fa94d"
   },
   {
     "url": "pages/impressum.html",
-    "revision": "358c3f452232528f03a4147d47293e9e"
+    "revision": "149cb13a6dbb4f9f54b2918b5924ec9f"
   },
   {
     "url": "pages/newsletter.html",
